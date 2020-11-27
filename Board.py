@@ -28,9 +28,9 @@ class Board:
                 ancho = np.random.randint(10,200)
                 # pygame.draw.rect(surface, color, rect)
                 # rect = (x,y, altura, ancho)
-                #pygame.draw.rect(win, (r,g,b), (row*SQUARE_SIZE, col*SQUARE_SIZE, altura, ancho))
+                pygame.draw.rect(win, (r,g,b), (row*SQUARE_SIZE, col*SQUARE_SIZE, altura, ancho))
                 # colores lindos:
-                pygame.draw.rect(win, (row*20, col*20, col*10+row*10), (row*SQUARE_SIZE, col*SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE))
+                #pygame.draw.rect(win, (row*20, col*20, col*10+row*10), (row*SQUARE_SIZE, col*SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE))
                 
     def create_board(self):
         pass

@@ -12,7 +12,7 @@ def main():
     
     run = True
     clock = pygame.time.Clock()
-    board = Board()
+    board = Board(WIN)
     while run:
         clock.tick(FPS)
         
@@ -23,7 +23,8 @@ def main():
             if event.type == pygame.MOUSEBUTTONDOWN:
                  pass
         
-        board.draw_squares(WIN)
+        board.draw_squares()
+        board.create_board()
         pygame.display.update()
         
     pygame.quit()

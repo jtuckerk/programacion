@@ -41,4 +41,6 @@ class Board:
         pieza2.draw(self.win)
         pieza3 = Piece(row=0, col=3, color=RED)
         pieza3.draw(self.win)
+        pieza4 = Piece(row=7, col=7, color=BLACK)
+        pieza4.draw(self.win)
         

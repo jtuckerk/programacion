@@ -35,8 +35,10 @@ class Board:
                 #pygame.draw.rect(self.win, (row*20, col*20, col*10+row*10), (row*SQUARE_SIZE, col*SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE))
                 
     def create_board(self):
-        pedazo1 = Piece(row=0, col=1, color=RED)
-        pedazo1.draw(self.win)
-        pedazo2 = Piece(row=5, col=1, color=BLACK)
-        pedazo2.draw(self.win)
-            
+        pieza1 = Piece(row=0, col=1, color=RED)
+        pieza1.draw(self.win)
+        pieza2 = Piece(row=5, col=1, color=BLACK)
+        pieza2.draw(self.win)
+        pieza3 = Piece(row=0, col=3, color=RED)
+        pieza3.draw(self.win)
+        

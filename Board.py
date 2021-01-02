@@ -59,7 +59,7 @@ class Board:
                     self.board[row].append(0)
     
     def draw(self,win):
-        self.draw_squares(win)
+        self.draw_squares()
         for row in range(ROWS):
             for col in range(COLS):
                 piece = self.board[row][col]

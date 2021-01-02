@@ -1,0 +1,15 @@
+pygame 2.0.0.dev10 (SDL 2.0.12, python 3.8.6)
+  Hello from the pygame community. https://www.pygame.org/contribute.html
+  cols y rows 8 8
+  Tamano del tablero 8 8
+  cols y rows 8 8
+  Tamano del tablero 16 16
+  cols y rows 8 8
+  Tamano del tablero 24 24
+  cols y rows 8 8
+  Tamano del tablero 32 32
+  cols y rows 8 8
+  Tamano del tablero 40 40
+
+
+  por que el tamaño del tablero esta aumentando?

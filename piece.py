@@ -32,5 +32,5 @@ class Piece:
         pygame.draw.circle(win, self.color, (self.x, self.y), radius)
         
     def __repr__(self):
-        return str(self.color)
+        return "PIECE("+str(self.color)+")"
             

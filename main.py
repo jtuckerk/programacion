@@ -25,7 +25,7 @@ def main():
         
         board.draw_squares()
         board.create_board()
-        board.draw(WIN)
+        board.draw()
         pygame.display.update()
         
         

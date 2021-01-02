@@ -54,15 +54,19 @@ class Board:
                     elif row > 4:
                         self.board[row].append(Piece(row,col,RED))
                     else:
-                        self.board[row].append(0)
+                        self.board[row].append(None)
                 else:
-                    self.board[row].append(0)
+                    self.board[row].append(None)
+        print("cols y rows", COLS, ROWS)
+        print("Tamano del tablero", len(self.board), len(self.board[0]))
     
-    def draw(self,win):
+    def draw(self):
         self.draw_squares()
+
+
         for row in range(ROWS):
             for col in range(COLS):
                 piece = self.board[row][col]
-                if piece != 0:
-                    piece.draw(win)
+                if piece is not None:
+                    piece.draw(self.win)
         

@@ -22,7 +22,7 @@ class Board:
                 pygame.draw.rect(self.win, RED, (row*SQUARE_SIZE, col*SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE))
                 
     def crear_datos_de_fichas(self): # tenemos que cambiar este nombre
-       
+        self.datos_de_fichas = []
         for row in range(ROWS):
             self.datos_de_fichas.append([])
             for col in range(COLS):

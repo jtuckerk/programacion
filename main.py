@@ -12,7 +12,7 @@ def main():
     
     run = True
     clock = pygame.time.Clock()
-    board = Board.(WIN) # A.
+    board = Board(WIN) # A.
     while run: #C
         clock.tick(FPS)
         

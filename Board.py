@@ -11,7 +11,7 @@ class Board:
         self.red_left = self.white_left = 12
         self.red_kings = self.white_kings = 0
         self.win = win
-        self.create_board()
+        self.crear_datos_de_fichas()
         
     def draw_squares(self):
         self.win.fill(BLACK)
